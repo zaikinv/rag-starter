@@ -1,0 +1,53 @@
+@mixin message {
+  margin-bottom: 1.5rem;
+  margin-top: 0.2rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+@mixin avatar {
+  display: flex;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+@mixin icon {
+  width: 1rem;
+  display: inline-block;
+  flex: none;
+  pointer-events: none;
+}
+
+@mixin loader {
+  width: fit-content;
+  clip-path: inset(0 1ch 0 0);
+  animation: l4 1s steps(4) infinite;
+  place-content: center;
+  color: #929292;
+
+  &:before {
+    content: 'Generating response...';
+  }
+
+  @keyframes l4 {
+    to {
+      clip-path: inset(0 -1ch 0 0);
+    }
+  }
+}
+
+@mixin response {
+  color: var(--text-color);
+  margin-top: 0.2rem;
+
+  * {
+    margin-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,21 @@
+@import 'themes';
+@import './reset';
+
+
+.light {
+  @include light;
+}
+
+* {
+  font-family:
+          Roboto,
+          -apple-system,
+          'system-ui',
+          Helvetica,
+          Arial,
+          sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+

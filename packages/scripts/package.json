@@ -1,0 +1,22 @@
+{
+  "name": "scripts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "ingest": "node src/ingest.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@langchain/community": "^0.2.1",
+    "@langchain/qdrant": "^0.0.4",
+    "@langchain/textsplitters": "^0.0.2",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "parse-markdown-table": "^0.0.6",
+    "markdown-table-prettify": "^3.6.0",
+    "marked": "^4.3.0",
+    "prettier": "^3.0.0"
+  }
+}

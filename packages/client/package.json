@@ -1,0 +1,31 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite-live-preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.22",
+    "marked": "^12.0.2",
+    "prismjs": "^1.29.0",
+    "socket.io-client": "^4.7.5",
+    "uuid": "^9.0.1",
+    "vite-plugin-prismjs": "^0.0.11",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.4",
+    "@types/uuid": "^9.0.8",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "prettier": "^3.2.5",
+    "sass": "^1.77.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-live-preview": "^0.1.7",
+    "vue-tsc": "^2.0.6"
+  }
+}
