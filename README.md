@@ -1,16 +1,19 @@
-<br/>
-<br/>
 <div align="center">
-</a>
-<h3 align="center">Minimalistic RAG starter</h3>
-<p align="center">
-Starter project for your GenAI RAG application.
-<br/>
-<br/>
-<br/>
-<br/>
-</p>
+  <br/>
+  <br/>
+  <img src="https://github.com/zaikinv/rag-starter/assets/6627318/b753f6ca-9365-4cdb-a89e-2c88f86585b1" alt="bricks-V9H87YQDET" width="100"/>
+  <br/>
+  <br/>
+  <h3 align="center">Minimalistic RAG Starter</h3>
+  <p align="center">
+    Starter project for your GenAI RAG application.
+  </p>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
 </div>
+
 
 ## 🎬 Demo
 
