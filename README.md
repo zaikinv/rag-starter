@@ -83,7 +83,7 @@ Clone the project
     touch .env
     ```
 
-2. Set environment variables in `.env:
+2. Set environment variables in `.env`:
 
     ```bash    
     OPENAI_API_KEY=
